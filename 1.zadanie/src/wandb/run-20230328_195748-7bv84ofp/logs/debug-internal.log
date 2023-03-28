@@ -1,0 +1,303 @@
+2023-03-28 19:57:48,678 INFO    StreamThr :20524 [internal.py:wandb_internal():87] W&B internal server running at pid: 20524, started at: 2023-03-28 19:57:48.677872
+2023-03-28 19:57:48,679 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status
+2023-03-28 19:57:48,695 INFO    WriterThread:20524 [datastore.py:open_for_write():85] open: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\run-7bv84ofp.wandb
+2023-03-28 19:57:48,696 DEBUG   SenderThread:20524 [sender.py:send():336] send: header
+2023-03-28 19:57:48,751 DEBUG   SenderThread:20524 [sender.py:send():336] send: run
+2023-03-28 19:57:49,435 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: check_version
+2023-03-28 19:57:49,440 INFO    SenderThread:20524 [dir_watcher.py:__init__():216] watching files in: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files
+2023-03-28 19:57:49,440 INFO    SenderThread:20524 [sender.py:_start_run_threads():1067] run started: 7bv84ofp with start time 1680026268.683381
+2023-03-28 19:57:49,440 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: summary_record
+2023-03-28 19:57:49,441 INFO    SenderThread:20524 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-28 19:57:49,441 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: check_version
+2023-03-28 19:57:49,512 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: run_start
+2023-03-28 19:57:49,546 DEBUG   HandlerThread:20524 [system_info.py:__init__():31] System info init
+2023-03-28 19:57:49,546 DEBUG   HandlerThread:20524 [system_info.py:__init__():46] System info init done
+2023-03-28 19:57:49,546 INFO    HandlerThread:20524 [system_monitor.py:start():151] Starting system monitor
+2023-03-28 19:57:49,547 INFO    SystemMonitor:20524 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-28 19:57:49,547 INFO    HandlerThread:20524 [system_monitor.py:probe():172] Collecting system info
+2023-03-28 19:57:49,552 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started cpu
+2023-03-28 19:57:49,553 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started disk
+2023-03-28 19:57:49,553 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started gpu
+2023-03-28 19:57:49,563 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started memory
+2023-03-28 19:57:49,574 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started network
+2023-03-28 19:57:49,595 ERROR   gpu       :20524 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-28 19:57:49,604 DEBUG   HandlerThread:20524 [system_info.py:probe():195] Probing system
+2023-03-28 19:57:49,609 DEBUG   HandlerThread:20524 [system_info.py:_probe_git():180] Probing git
+2023-03-28 19:57:49,716 DEBUG   HandlerThread:20524 [system_info.py:_probe_git():188] Probing git done
+2023-03-28 19:57:49,716 DEBUG   HandlerThread:20524 [system_info.py:probe():241] Probing system done
+2023-03-28 19:57:49,716 DEBUG   HandlerThread:20524 [system_monitor.py:probe():181] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.10.7', 'heartbeatAt': '2023-03-28T17:57:49.604519', 'startedAt': '2023-03-28T17:57:48.665277', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '1.zadanie/src/first_assignment.ipynb', 'root': 'D:/10.semester/NN/neural-networks', 'git': {'remote': 'https://github.com/martinkukucka/neural-networks.git', 'commit': '75a0836121d25b3e3f523112e12503e394f36739'}, 'email': 'andrejbelak0@gmail.com', 'host': 'AndysLAPTOP', 'username': 'andre', 'executable': 'd:\\programs\\pyhtonprograms\\bettscrapper\\venv\\scripts\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0, 'min': 0.0, 'max': 2592.0}, 'cpu_freq_per_core': [{'current': 2592.0, 'min': 0.0, 'max': 2592.0}], 'disk': {'total': 683.5937461853027, 'used': 433.48939514160156}, 'gpu': 'GeForce GTX 1660 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'GeForce GTX 1660 Ti', 'memory_total': 6442450944}], 'memory': {'total': 15.912220001220703}}
+2023-03-28 19:57:49,717 INFO    HandlerThread:20524 [system_monitor.py:probe():182] Finished collecting system info
+2023-03-28 19:57:49,717 INFO    HandlerThread:20524 [system_monitor.py:probe():185] Publishing system info
+2023-03-28 19:57:49,717 DEBUG   HandlerThread:20524 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-03-28 19:57:49,718 DEBUG   HandlerThread:20524 [system_info.py:_save_pip():67] Saving pip packages done
+2023-03-28 19:57:49,719 INFO    HandlerThread:20524 [system_monitor.py:probe():187] Finished publishing system info
+2023-03-28 19:57:49,744 DEBUG   SenderThread:20524 [sender.py:send():336] send: files
+2023-03-28 19:57:49,744 INFO    SenderThread:20524 [sender.py:_save_file():1321] saving file wandb-metadata.json with policy now
+2023-03-28 19:57:49,778 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: stop_status
+2023-03-28 19:57:49,778 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: stop_status
+2023-03-28 19:57:49,978 DEBUG   SenderThread:20524 [sender.py:send():336] send: telemetry
+2023-03-28 19:57:49,978 DEBUG   SenderThread:20524 [sender.py:send():336] send: telemetry
+2023-03-28 19:57:49,979 DEBUG   SenderThread:20524 [sender.py:send():336] send: config
+2023-03-28 19:57:49,979 DEBUG   SenderThread:20524 [sender.py:send():336] send: config
+2023-03-28 19:57:49,979 DEBUG   SenderThread:20524 [sender.py:send():336] send: config
+2023-03-28 19:57:49,983 DEBUG   SenderThread:20524 [sender.py:send():336] send: telemetry
+2023-03-28 19:57:49,983 DEBUG   SenderThread:20524 [sender.py:send():336] send: telemetry
+2023-03-28 19:57:49,984 DEBUG   SenderThread:20524 [sender.py:send():336] send: files
+2023-03-28 19:57:49,984 INFO    SenderThread:20524 [sender.py:_save_file():1321] saving file model-best.h5 with policy live
+2023-03-28 19:57:49,985 DEBUG   SenderThread:20524 [sender.py:send():336] send: telemetry
+2023-03-28 19:57:49,986 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-28 19:57:50,445 INFO    Thread-17 :20524 [dir_watcher.py:_on_file_created():275] file/dir created: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\requirements.txt
+2023-03-28 19:57:50,445 INFO    Thread-17 :20524 [dir_watcher.py:_on_file_created():275] file/dir created: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\output.log
+2023-03-28 19:57:50,446 INFO    Thread-17 :20524 [dir_watcher.py:_on_file_created():275] file/dir created: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\wandb-summary.json
+2023-03-28 19:57:50,446 INFO    Thread-17 :20524 [dir_watcher.py:_on_file_created():275] file/dir created: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\wandb-metadata.json
+2023-03-28 19:57:50,458 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: pause
+2023-03-28 19:57:50,458 INFO    HandlerThread:20524 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-28 19:57:50,458 INFO    HandlerThread:20524 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-28 19:57:50,458 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-28 19:57:50,459 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-28 19:57:50,459 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-28 19:57:50,468 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined cpu
+2023-03-28 19:57:50,468 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined disk
+2023-03-28 19:57:50,519 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined gpu
+2023-03-28 19:57:50,519 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined memory
+2023-03-28 19:57:50,519 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined network
+2023-03-28 19:57:50,520 DEBUG   SenderThread:20524 [sender.py:send():336] send: stats
+2023-03-28 19:57:50,588 INFO    wandb-upload_0:20524 [upload_job.py:push():138] Uploaded file C:\Users\andre\AppData\Local\Temp\tmpwblk39j6wandb\q5e54qzs-wandb-metadata.json
+2023-03-28 19:57:52,465 INFO    Thread-17 :20524 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\output.log
+2023-03-28 19:57:54,556 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:57:59,605 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:58:04,651 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:58:04,790 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:58:04,790 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:58:09,696 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:58:09,834 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:58:14,734 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:58:14,874 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:58:19,775 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:58:19,912 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:58:20,691 INFO    Thread-17 :20524 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\config.yaml
+2023-03-28 19:58:25,094 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:58:25,386 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:58:29,028 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: resume
+2023-03-28 19:58:29,028 INFO    HandlerThread:20524 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-28 19:58:29,028 INFO    HandlerThread:20524 [system_monitor.py:start():151] Starting system monitor
+2023-03-28 19:58:29,029 INFO    SystemMonitor:20524 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-28 19:58:29,036 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started cpu
+2023-03-28 19:58:29,037 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started disk
+2023-03-28 19:58:29,037 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: pause
+2023-03-28 19:58:29,037 INFO    HandlerThread:20524 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-28 19:58:29,038 INFO    HandlerThread:20524 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-28 19:58:29,038 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started gpu
+2023-03-28 19:58:29,038 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-28 19:58:29,039 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-28 19:58:29,039 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-28 19:58:29,039 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined cpu
+2023-03-28 19:58:29,039 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined disk
+2023-03-28 19:58:29,039 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined gpu
+2023-03-28 19:58:29,040 DEBUG   SenderThread:20524 [sender.py:send():336] send: stats
+2023-03-28 19:58:30,131 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:58:30,752 INFO    Thread-17 :20524 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\output.log
+2023-03-28 19:58:31,059 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:58:35,158 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:58:36,086 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:58:38,787 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: resume
+2023-03-28 19:58:38,787 INFO    HandlerThread:20524 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-28 19:58:38,787 INFO    HandlerThread:20524 [system_monitor.py:start():151] Starting system monitor
+2023-03-28 19:58:38,787 INFO    SystemMonitor:20524 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-28 19:58:38,789 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started cpu
+2023-03-28 19:58:38,793 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: pause
+2023-03-28 19:58:38,793 INFO    HandlerThread:20524 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-28 19:58:38,793 INFO    HandlerThread:20524 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-28 19:58:38,794 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started disk
+2023-03-28 19:58:38,795 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-28 19:58:38,795 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-28 19:58:38,795 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-28 19:58:38,795 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined cpu
+2023-03-28 19:58:38,795 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined disk
+2023-03-28 19:58:38,796 DEBUG   SenderThread:20524 [sender.py:send():336] send: stats
+2023-03-28 19:58:40,190 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:58:40,824 INFO    Thread-17 :20524 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\output.log
+2023-03-28 19:58:41,820 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:58:45,229 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:58:46,854 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:58:50,261 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:58:51,884 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:58:55,306 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:58:56,931 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:59:00,343 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:59:01,975 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:59:05,386 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:59:07,014 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:59:10,437 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:59:11,857 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: resume
+2023-03-28 19:59:11,857 INFO    HandlerThread:20524 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-28 19:59:11,857 INFO    HandlerThread:20524 [system_monitor.py:start():151] Starting system monitor
+2023-03-28 19:59:11,858 INFO    SystemMonitor:20524 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-28 19:59:11,868 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started cpu
+2023-03-28 19:59:11,868 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started disk
+2023-03-28 19:59:11,869 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started gpu
+2023-03-28 19:59:11,869 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started memory
+2023-03-28 19:59:11,900 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started network
+2023-03-28 19:59:11,908 ERROR   gpu       :20524 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-28 19:59:12,068 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:59:13,936 ERROR   gpu       :20524 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-28 19:59:15,479 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:59:15,967 ERROR   gpu       :20524 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-28 19:59:17,094 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:59:17,994 ERROR   gpu       :20524 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-28 19:59:20,030 ERROR   gpu       :20524 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-28 19:59:20,517 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:59:22,049 ERROR   gpu       :20524 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-28 19:59:22,125 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:59:23,466 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: pause
+2023-03-28 19:59:23,466 INFO    HandlerThread:20524 [handler.py:handle_request_pause():717] stopping system metrics thread or process
+2023-03-28 19:59:23,466 INFO    HandlerThread:20524 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-28 19:59:23,467 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-28 19:59:23,477 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-28 19:59:23,477 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-28 19:59:23,477 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined cpu
+2023-03-28 19:59:23,478 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined disk
+2023-03-28 19:59:23,526 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined gpu
+2023-03-28 19:59:23,526 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined memory
+2023-03-28 19:59:23,526 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined network
+2023-03-28 19:59:23,526 DEBUG   SenderThread:20524 [sender.py:send():336] send: stats
+2023-03-28 19:59:25,183 INFO    Thread-17 :20524 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\output.log
+2023-03-28 19:59:25,554 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:59:27,564 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:59:30,591 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: keepalive
+2023-03-28 19:59:32,614 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:59:34,507 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: resume
+2023-03-28 19:59:34,507 INFO    HandlerThread:20524 [handler.py:handle_request_resume():708] starting system metrics thread or process
+2023-03-28 19:59:34,507 INFO    HandlerThread:20524 [system_monitor.py:start():151] Starting system monitor
+2023-03-28 19:59:34,508 INFO    SystemMonitor:20524 [system_monitor.py:_start():116] Starting system asset monitoring threads
+2023-03-28 19:59:34,513 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started cpu
+2023-03-28 19:59:34,513 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started disk
+2023-03-28 19:59:34,514 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started gpu
+2023-03-28 19:59:34,523 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started memory
+2023-03-28 19:59:34,524 INFO    SystemMonitor:20524 [interfaces.py:start():168] Started network
+2023-03-28 19:59:34,551 DEBUG   SenderThread:20524 [sender.py:send():336] send: telemetry
+2023-03-28 19:59:34,551 DEBUG   SenderThread:20524 [sender.py:send():336] send: exit
+2023-03-28 19:59:34,553 INFO    SenderThread:20524 [sender.py:send_exit():559] handling exit code: 0
+2023-03-28 19:59:34,553 INFO    SenderThread:20524 [sender.py:send_exit():561] handling runtime: 12
+2023-03-28 19:59:34,555 INFO    SenderThread:20524 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-28 19:59:34,555 INFO    SenderThread:20524 [sender.py:send_exit():567] send defer
+2023-03-28 19:59:34,556 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:34,556 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 0
+2023-03-28 19:59:34,556 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:34,557 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 0
+2023-03-28 19:59:34,557 ERROR   gpu       :20524 [interfaces.py:monitor():129] Failed to sample metric: Not Supported
+2023-03-28 19:59:34,557 INFO    SenderThread:20524 [sender.py:transition_state():587] send defer: 1
+2023-03-28 19:59:34,557 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:34,557 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 1
+2023-03-28 19:59:34,558 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:34,558 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 1
+2023-03-28 19:59:34,558 INFO    SenderThread:20524 [sender.py:transition_state():587] send defer: 2
+2023-03-28 19:59:34,558 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:34,558 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 2
+2023-03-28 19:59:34,558 INFO    HandlerThread:20524 [system_monitor.py:finish():161] Stopping system monitor
+2023-03-28 19:59:34,558 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():130] Starting system metrics aggregation loop
+2023-03-28 19:59:34,559 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():137] Finished system metrics aggregation loop
+2023-03-28 19:59:34,567 DEBUG   SystemMonitor:20524 [system_monitor.py:_start():141] Publishing last batch of metrics
+2023-03-28 19:59:34,568 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined cpu
+2023-03-28 19:59:34,569 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined disk
+2023-03-28 19:59:34,611 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined gpu
+2023-03-28 19:59:34,611 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined memory
+2023-03-28 19:59:34,612 INFO    HandlerThread:20524 [interfaces.py:finish():175] Joined network
+2023-03-28 19:59:34,612 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:34,612 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 2
+2023-03-28 19:59:34,612 INFO    SenderThread:20524 [sender.py:transition_state():587] send defer: 3
+2023-03-28 19:59:34,612 DEBUG   SenderThread:20524 [sender.py:send():336] send: stats
+2023-03-28 19:59:34,613 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:34,613 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 3
+2023-03-28 19:59:34,613 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:34,613 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 3
+2023-03-28 19:59:34,613 INFO    SenderThread:20524 [sender.py:transition_state():587] send defer: 4
+2023-03-28 19:59:34,613 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:34,613 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 4
+2023-03-28 19:59:34,614 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:34,614 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 4
+2023-03-28 19:59:34,614 INFO    SenderThread:20524 [sender.py:transition_state():587] send defer: 5
+2023-03-28 19:59:34,614 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:34,614 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 5
+2023-03-28 19:59:34,614 DEBUG   SenderThread:20524 [sender.py:send():336] send: summary
+2023-03-28 19:59:34,615 INFO    SenderThread:20524 [sender.py:_save_file():1321] saving file wandb-summary.json with policy end
+2023-03-28 19:59:34,615 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:34,615 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 5
+2023-03-28 19:59:34,615 INFO    SenderThread:20524 [sender.py:transition_state():587] send defer: 6
+2023-03-28 19:59:34,616 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:34,616 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 6
+2023-03-28 19:59:34,616 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:34,616 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 6
+2023-03-28 19:59:34,619 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: status_report
+2023-03-28 19:59:34,838 INFO    SenderThread:20524 [sender.py:transition_state():587] send defer: 7
+2023-03-28 19:59:34,838 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:34,838 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 7
+2023-03-28 19:59:34,838 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:34,838 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 7
+2023-03-28 19:59:35,260 INFO    Thread-17 :20524 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\config.yaml
+2023-03-28 19:59:35,261 INFO    Thread-17 :20524 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\wandb-summary.json
+2023-03-28 19:59:35,554 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-28 19:59:36,888 INFO    SenderThread:20524 [sender.py:transition_state():587] send defer: 8
+2023-03-28 19:59:36,889 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: poll_exit
+2023-03-28 19:59:36,889 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:36,889 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 8
+2023-03-28 19:59:36,889 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:36,889 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 8
+2023-03-28 19:59:36,890 INFO    SenderThread:20524 [sender.py:transition_state():587] send defer: 9
+2023-03-28 19:59:36,890 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:36,890 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 9
+2023-03-28 19:59:36,891 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:36,891 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 9
+2023-03-28 19:59:36,891 INFO    SenderThread:20524 [dir_watcher.py:finish():362] shutting down directory watcher
+2023-03-28 19:59:37,273 INFO    SenderThread:20524 [dir_watcher.py:_on_file_modified():292] file/dir modified: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\output.log
+2023-03-28 19:59:37,274 INFO    SenderThread:20524 [dir_watcher.py:finish():392] scan: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files
+2023-03-28 19:59:37,274 INFO    SenderThread:20524 [dir_watcher.py:finish():406] scan save: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\config.yaml config.yaml
+2023-03-28 19:59:37,274 INFO    SenderThread:20524 [dir_watcher.py:finish():406] scan save: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\output.log output.log
+2023-03-28 19:59:37,277 INFO    SenderThread:20524 [dir_watcher.py:finish():406] scan save: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\requirements.txt requirements.txt
+2023-03-28 19:59:37,280 INFO    SenderThread:20524 [dir_watcher.py:finish():406] scan save: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\wandb-metadata.json wandb-metadata.json
+2023-03-28 19:59:37,280 INFO    SenderThread:20524 [dir_watcher.py:finish():406] scan save: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\wandb-summary.json wandb-summary.json
+2023-03-28 19:59:37,281 INFO    SenderThread:20524 [sender.py:transition_state():587] send defer: 10
+2023-03-28 19:59:37,284 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:37,284 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 10
+2023-03-28 19:59:37,284 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:37,285 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 10
+2023-03-28 19:59:37,285 INFO    SenderThread:20524 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-28 19:59:37,868 INFO    wandb-upload_0:20524 [upload_job.py:push():138] Uploaded file D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\config.yaml
+2023-03-28 19:59:37,947 INFO    wandb-upload_1:20524 [upload_job.py:push():138] Uploaded file D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\output.log
+2023-03-28 19:59:37,984 INFO    wandb-upload_3:20524 [upload_job.py:push():138] Uploaded file D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\wandb-summary.json
+2023-03-28 19:59:38,945 INFO    wandb-upload_2:20524 [upload_job.py:push():138] Uploaded file D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\files\requirements.txt
+2023-03-28 19:59:39,160 INFO    Thread-16 (_thread_body):20524 [sender.py:transition_state():587] send defer: 11
+2023-03-28 19:59:39,160 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:39,160 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 11
+2023-03-28 19:59:39,161 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:39,161 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 11
+2023-03-28 19:59:39,161 INFO    SenderThread:20524 [file_pusher.py:join():167] waiting for file pusher
+2023-03-28 19:59:39,161 INFO    SenderThread:20524 [sender.py:transition_state():587] send defer: 12
+2023-03-28 19:59:39,161 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:39,161 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 12
+2023-03-28 19:59:39,161 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:39,161 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 12
+2023-03-28 19:59:39,691 INFO    SenderThread:20524 [sender.py:transition_state():587] send defer: 13
+2023-03-28 19:59:39,691 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:39,691 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 13
+2023-03-28 19:59:39,691 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:39,691 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 13
+2023-03-28 19:59:39,691 INFO    SenderThread:20524 [sender.py:transition_state():587] send defer: 14
+2023-03-28 19:59:39,692 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: defer
+2023-03-28 19:59:39,692 INFO    HandlerThread:20524 [handler.py:handle_request_defer():170] handle defer: 14
+2023-03-28 19:59:39,693 DEBUG   SenderThread:20524 [sender.py:send():336] send: final
+2023-03-28 19:59:39,693 DEBUG   SenderThread:20524 [sender.py:send():336] send: footer
+2023-03-28 19:59:39,693 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: defer
+2023-03-28 19:59:39,693 INFO    SenderThread:20524 [sender.py:send_request_defer():583] handle sender defer: 14
+2023-03-28 19:59:39,694 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: poll_exit
+2023-03-28 19:59:39,694 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: server_info
+2023-03-28 19:59:39,694 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: get_summary
+2023-03-28 19:59:39,694 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: sampled_history
+2023-03-28 19:59:39,695 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: poll_exit
+2023-03-28 19:59:39,695 DEBUG   SenderThread:20524 [sender.py:send_request():363] send_request: server_info
+2023-03-28 19:59:40,083 DEBUG   HandlerThread:20524 [handler.py:handle_request():144] handle_request: shutdown
+2023-03-28 19:59:40,083 INFO    HandlerThread:20524 [handler.py:finish():841] shutting down handler
+2023-03-28 19:59:40,701 INFO    WriterThread:20524 [datastore.py:close():299] close: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230328_195748-7bv84ofp\run-7bv84ofp.wandb
+2023-03-28 19:59:41,088 INFO    SenderThread:20524 [sender.py:finish():1493] shutting down sender
+2023-03-28 19:59:41,088 INFO    SenderThread:20524 [file_pusher.py:finish():162] shutting down file pusher
+2023-03-28 19:59:41,088 INFO    SenderThread:20524 [file_pusher.py:join():167] waiting for file pusher
