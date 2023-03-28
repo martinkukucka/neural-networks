@@ -1,0 +1,17 @@
+2023-03-29 00:40:09,353 INFO    MainThread:15892 [wandb_setup.py:_flush():76] Configure stats pid to 15892
+2023-03-29 00:40:09,353 INFO    MainThread:15892 [wandb_setup.py:_flush():76] Loading settings from C:\Users\andre\.config\wandb\settings
+2023-03-29 00:40:09,354 INFO    MainThread:15892 [wandb_setup.py:_flush():76] Loading settings from D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\settings
+2023-03-29 00:40:09,354 INFO    MainThread:15892 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-03-29 00:40:09,354 INFO    MainThread:15892 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-03-29 00:40:09,354 INFO    MainThread:15892 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-03-29 00:40:09,355 INFO    MainThread:15892 [wandb_init.py:_log_setup():506] Logging user logs to D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_004009-edn0ixl0\logs\debug.log
+2023-03-29 00:40:09,355 INFO    MainThread:15892 [wandb_init.py:_log_setup():507] Logging internal logs to D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_004009-edn0ixl0\logs\debug-internal.log
+2023-03-29 00:40:09,355 INFO    MainThread:15892 [wandb_init.py:_jupyter_setup():452] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x0000022ADCD24B80>
+2023-03-29 00:40:09,355 INFO    MainThread:15892 [wandb_init.py:init():546] calling init triggers
+2023-03-29 00:40:09,355 INFO    MainThread:15892 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-03-29 00:40:09,355 INFO    MainThread:15892 [wandb_init.py:init():568] re-initializing run, found existing run on stack: dwmm6he4
+2023-03-29 00:40:09,357 INFO    MainThread:15892 [wandb_run.py:_finish():1854] finishing run neural-netwok-nn/neural-network/dwmm6he4
+2023-03-29 00:40:09,358 INFO    MainThread:15892 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-03-29 00:40:09,358 INFO    MainThread:15892 [wandb_run.py:_restore():2066] restore
+2023-03-29 00:40:09,358 INFO    MainThread:15892 [wandb_run.py:_restore():2072] restore done

@@ -1,0 +1,562 @@
+Epoch 1/200
+39/54 [====================>.........] - ETA: 0s - loss: 1.3535 - accuracy: 0.3574 INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 3s 40ms/step - loss: 1.3449 - accuracy: 0.3812 - val_loss: 1.3110 - val_accuracy: 0.4233
+Epoch 2/200
+33/54 [=================>............] - ETA: 0s - loss: 1.2827 - accuracy: 0.4811INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 4s 73ms/step - loss: 1.2632 - accuracy: 0.4865 - val_loss: 1.2219 - val_accuracy: 0.4767
+Epoch 3/200
+42/54 [======================>.......] - ETA: 0s - loss: 1.1462 - accuracy: 0.5469INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 19ms/step - loss: 1.1262 - accuracy: 0.5606 - val_loss: 1.0755 - val_accuracy: 0.5500
+Epoch 4/200
+34/54 [=================>............] - ETA: 0s - loss: 0.9888 - accuracy: 0.6452INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+54/54 [==============================] - 7s 130ms/step - loss: 0.9616 - accuracy: 0.6488 - val_loss: 0.9149 - val_accuracy: 0.6000
+Epoch 5/200
+39/54 [====================>.........] - ETA: 0s - loss: 0.8270 - accuracy: 0.7244INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 16ms/step - loss: 0.8079 - accuracy: 0.7206 - val_loss: 0.7828 - val_accuracy: 0.6700
+Epoch 6/200
+41/54 [=====================>........] - ETA: 0s - loss: 0.6972 - accuracy: 0.7729INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 27ms/step - loss: 0.6958 - accuracy: 0.7641 - val_loss: 0.6913 - val_accuracy: 0.7500
+Epoch 7/200
+37/54 [===================>..........] - ETA: 0s - loss: 0.6218 - accuracy: 0.7855INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 17ms/step - loss: 0.6147 - accuracy: 0.7876 - val_loss: 0.6194 - val_accuracy: 0.7567
+Epoch 8/200
+34/54 [=================>............] - ETA: 0s - loss: 0.5546 - accuracy: 0.8382INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 19ms/step - loss: 0.5434 - accuracy: 0.8365 - val_loss: 0.5630 - val_accuracy: 0.7800
+Epoch 9/200
+42/54 [======================>.......] - ETA: 0s - loss: 0.5028 - accuracy: 0.8363INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+54/54 [==============================] - 2s 38ms/step - loss: 0.4960 - accuracy: 0.8465 - val_loss: 0.5234 - val_accuracy: 0.8067
+Epoch 10/200
+38/54 [====================>.........] - ETA: 0s - loss: 0.4557 - accuracy: 0.8602INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 15ms/step - loss: 0.4496 - accuracy: 0.8588 - val_loss: 0.4809 - val_accuracy: 0.8267
+Epoch 11/200
+40/54 [=====================>........] - ETA: 0s - loss: 0.4083 - accuracy: 0.8789INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 11s 207ms/step - loss: 0.4100 - accuracy: 0.8712 - val_loss: 0.4352 - val_accuracy: 0.8567
+Epoch 12/200
+40/54 [=====================>........] - ETA: 0s - loss: 0.3792 - accuracy: 0.8883INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 15ms/step - loss: 0.3747 - accuracy: 0.8912 - val_loss: 0.4062 - val_accuracy: 0.8533
+Epoch 13/200
+43/54 [======================>.......] - ETA: 0s - loss: 0.3547 - accuracy: 0.8946INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 25ms/step - loss: 0.3480 - accuracy: 0.8965 - val_loss: 0.3861 - val_accuracy: 0.8733
+Epoch 14/200
+39/54 [====================>.........] - ETA: 0s - loss: 0.3207 - accuracy: 0.8950INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 20ms/step - loss: 0.3225 - accuracy: 0.8929 - val_loss: 0.3655 - val_accuracy: 0.8867
+Epoch 15/200
+40/54 [=====================>........] - ETA: 0s - loss: 0.2999 - accuracy: 0.9125INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 15ms/step - loss: 0.2997 - accuracy: 0.9147 - val_loss: 0.3479 - val_accuracy: 0.8833
+Epoch 16/200
+40/54 [=====================>........] - ETA: 0s - loss: 0.2845 - accuracy: 0.9172INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 19ms/step - loss: 0.2848 - accuracy: 0.9188 - val_loss: 0.3223 - val_accuracy: 0.8800
+Epoch 17/200
+39/54 [====================>.........] - ETA: 0s - loss: 0.2698 - accuracy: 0.9255INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+54/54 [==============================] - 1s 21ms/step - loss: 0.2628 - accuracy: 0.9294 - val_loss: 0.3024 - val_accuracy: 0.8867
+Epoch 18/200
+42/54 [======================>.......] - ETA: 0s - loss: 0.2469 - accuracy: 0.9390INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 2s 34ms/step - loss: 0.2479 - accuracy: 0.9353 - val_loss: 0.2896 - val_accuracy: 0.8967
+Epoch 19/200
+39/54 [====================>.........] - ETA: 0s - loss: 0.2420 - accuracy: 0.9287INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 15ms/step - loss: 0.2389 - accuracy: 0.9312 - val_loss: 0.2768 - val_accuracy: 0.8933
+Epoch 20/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.2223 - accuracy: 0.9441 - val_loss: 0.3106 - val_accuracy: 0.8767
+Epoch 21/200
+42/54 [======================>.......] - ETA: 0s - loss: 0.2114 - accuracy: 0.9420INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 20ms/step - loss: 0.2131 - accuracy: 0.9418 - val_loss: 0.2647 - val_accuracy: 0.8967
+Epoch 22/200
+39/54 [====================>.........] - ETA: 0s - loss: 0.2040 - accuracy: 0.9447INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+54/54 [==============================] - 1s 21ms/step - loss: 0.2043 - accuracy: 0.9465 - val_loss: 0.2573 - val_accuracy: 0.8867
+Epoch 23/200
+39/54 [====================>.........] - ETA: 0s - loss: 0.1926 - accuracy: 0.9527INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 19ms/step - loss: 0.1923 - accuracy: 0.9506 - val_loss: 0.2450 - val_accuracy: 0.9200
+Epoch 24/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.1871 - accuracy: 0.9494 - val_loss: 0.2557 - val_accuracy: 0.8967
+Epoch 25/200
+41/54 [=====================>........] - ETA: 0s - loss: 0.1771 - accuracy: 0.9520INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 16ms/step - loss: 0.1784 - accuracy: 0.9547 - val_loss: 0.2279 - val_accuracy: 0.9100
+Epoch 26/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.1713 - accuracy: 0.9565 - val_loss: 0.2294 - val_accuracy: 0.9033
+Epoch 27/200
+41/54 [=====================>........] - ETA: 0s - loss: 0.1607 - accuracy: 0.9588INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 2s 40ms/step - loss: 0.1622 - accuracy: 0.9565 - val_loss: 0.2255 - val_accuracy: 0.9100
+Epoch 28/200
+41/54 [=====================>........] - ETA: 0s - loss: 0.1559 - accuracy: 0.9634INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 15ms/step - loss: 0.1552 - accuracy: 0.9635 - val_loss: 0.2108 - val_accuracy: 0.9200
+Epoch 29/200
+35/54 [==================>...........] - ETA: 0s - loss: 0.1574 - accuracy: 0.9571INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 15ms/step - loss: 0.1546 - accuracy: 0.9553 - val_loss: 0.2083 - val_accuracy: 0.9100
+Epoch 30/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.1444 - accuracy: 0.9659 - val_loss: 0.2265 - val_accuracy: 0.9000
+Epoch 31/200
+41/54 [=====================>........] - ETA: 0s - loss: 0.1529 - accuracy: 0.9604INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 2s 39ms/step - loss: 0.1471 - accuracy: 0.9641 - val_loss: 0.1975 - val_accuracy: 0.9333
+Epoch 32/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.1402 - accuracy: 0.9600 - val_loss: 0.2138 - val_accuracy: 0.9033
+Epoch 33/200
+40/54 [=====================>........] - ETA: 0s - loss: 0.1362 - accuracy: 0.9578INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 16ms/step - loss: 0.1392 - accuracy: 0.9576 - val_loss: 0.1895 - val_accuracy: 0.9200
+Epoch 34/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.1278 - accuracy: 0.9682 - val_loss: 0.1928 - val_accuracy: 0.9300
+Epoch 35/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.1268 - accuracy: 0.9647 - val_loss: 0.1914 - val_accuracy: 0.9167
+Epoch 36/200
+42/54 [======================>.......] - ETA: 0s - loss: 0.1246 - accuracy: 0.9717INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 19ms/step - loss: 0.1187 - accuracy: 0.9735 - val_loss: 0.1816 - val_accuracy: 0.9233
+Epoch 37/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.1181 - accuracy: 0.9724 - val_loss: 0.1818 - val_accuracy: 0.9300
+Epoch 38/200
+40/54 [=====================>........] - ETA: 0s - loss: 0.1137 - accuracy: 0.9695INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 15ms/step - loss: 0.1137 - accuracy: 0.9676 - val_loss: 0.1794 - val_accuracy: 0.9233
+Epoch 39/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.1174 - accuracy: 0.9659 - val_loss: 0.1802 - val_accuracy: 0.9200
+Epoch 40/200
+41/54 [=====================>........] - ETA: 0s - loss: 0.1170 - accuracy: 0.9642INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 15ms/step - loss: 0.1169 - accuracy: 0.9629 - val_loss: 0.1762 - val_accuracy: 0.9233
+Epoch 41/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.1037 - accuracy: 0.9782 - val_loss: 0.1789 - val_accuracy: 0.9267
+Epoch 42/200
+41/54 [=====================>........] - ETA: 0s - loss: 0.1009 - accuracy: 0.9809INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 7s 127ms/step - loss: 0.1051 - accuracy: 0.9759 - val_loss: 0.1701 - val_accuracy: 0.9300
+Epoch 43/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.1128 - accuracy: 0.9665 - val_loss: 0.1782 - val_accuracy: 0.9200
+Epoch 44/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.1008 - accuracy: 0.9776 - val_loss: 0.2310 - val_accuracy: 0.8800
+Epoch 45/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.1074 - accuracy: 0.9659 - val_loss: 0.1912 - val_accuracy: 0.9133
+Epoch 46/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0914 - accuracy: 0.9829 - val_loss: 0.1790 - val_accuracy: 0.9267
+Epoch 47/200
+39/54 [====================>.........] - ETA: 0s - loss: 0.0921 - accuracy: 0.9776INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 15ms/step - loss: 0.0924 - accuracy: 0.9765 - val_loss: 0.1613 - val_accuracy: 0.9233
+Epoch 48/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0905 - accuracy: 0.9829 - val_loss: 0.1804 - val_accuracy: 0.9233
+Epoch 49/200
+43/54 [======================>.......] - ETA: 0s - loss: 0.0852 - accuracy: 0.9804INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 15ms/step - loss: 0.0842 - accuracy: 0.9824 - val_loss: 0.1530 - val_accuracy: 0.9300
+Epoch 50/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0812 - accuracy: 0.9824 - val_loss: 0.1622 - val_accuracy: 0.9200
+Epoch 51/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0834 - accuracy: 0.9776 - val_loss: 0.1886 - val_accuracy: 0.9100
+Epoch 52/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0818 - accuracy: 0.9806 - val_loss: 0.1555 - val_accuracy: 0.9333
+Epoch 53/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0778 - accuracy: 0.9876 - val_loss: 0.1547 - val_accuracy: 0.9233
+Epoch 54/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0773 - accuracy: 0.9859 - val_loss: 0.1711 - val_accuracy: 0.9167
+Epoch 55/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0864 - accuracy: 0.9747 - val_loss: 0.1935 - val_accuracy: 0.9067
+Epoch 56/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0766 - accuracy: 0.9818 - val_loss: 0.1578 - val_accuracy: 0.9367
+Epoch 57/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0699 - accuracy: 0.9882 - val_loss: 0.1769 - val_accuracy: 0.9200
+Epoch 58/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0676 - accuracy: 0.9882 - val_loss: 0.1567 - val_accuracy: 0.9333
+Epoch 59/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0737 - accuracy: 0.9859 - val_loss: 0.1547 - val_accuracy: 0.9333
+Epoch 60/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0696 - accuracy: 0.9888 - val_loss: 0.1687 - val_accuracy: 0.9200
+Epoch 61/200
+40/54 [=====================>........] - ETA: 0s - loss: 0.0685 - accuracy: 0.9844INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 16ms/step - loss: 0.0671 - accuracy: 0.9835 - val_loss: 0.1485 - val_accuracy: 0.9367
+Epoch 62/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0674 - accuracy: 0.9829 - val_loss: 0.1606 - val_accuracy: 0.9400
+Epoch 63/200
+42/54 [======================>.......] - ETA: 0s - loss: 0.0606 - accuracy: 0.9911INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 15ms/step - loss: 0.0613 - accuracy: 0.9906 - val_loss: 0.1482 - val_accuracy: 0.9300
+Epoch 64/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0697 - accuracy: 0.9847 - val_loss: 0.1904 - val_accuracy: 0.9067
+Epoch 65/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0601 - accuracy: 0.9900 - val_loss: 0.1527 - val_accuracy: 0.9267
+Epoch 66/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0582 - accuracy: 0.9929 - val_loss: 0.1494 - val_accuracy: 0.9400
+Epoch 67/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0580 - accuracy: 0.9894 - val_loss: 0.1535 - val_accuracy: 0.9267
+Epoch 68/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0575 - accuracy: 0.9935 - val_loss: 0.1591 - val_accuracy: 0.9300
+Epoch 69/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0575 - accuracy: 0.9906 - val_loss: 0.1596 - val_accuracy: 0.9333
+Epoch 70/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0558 - accuracy: 0.9918 - val_loss: 0.1583 - val_accuracy: 0.9300
+Epoch 71/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0542 - accuracy: 0.9894 - val_loss: 0.1635 - val_accuracy: 0.9367
+Epoch 72/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0529 - accuracy: 0.9912 - val_loss: 0.1670 - val_accuracy: 0.9267
+Epoch 73/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0522 - accuracy: 0.9912 - val_loss: 0.1518 - val_accuracy: 0.9433
+Epoch 74/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0506 - accuracy: 0.9941 - val_loss: 0.1689 - val_accuracy: 0.9233
+Epoch 75/200
+43/54 [======================>.......] - ETA: 0s - loss: 0.0514 - accuracy: 0.9898INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+WARNING:absl:Found untraced functions such as _update_step_xla while saving (showing 1 of 1). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\1.zadanie\src\wandb\run-20230329_000518-v9sxj8f0\files\model-best)... Done. 0.0s
+54/54 [==============================] - 1s 18ms/step - loss: 0.0491 - accuracy: 0.9918 - val_loss: 0.1472 - val_accuracy: 0.9300
+Epoch 76/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0502 - accuracy: 0.9918 - val_loss: 0.1563 - val_accuracy: 0.9367
+Epoch 77/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0473 - accuracy: 0.9929 - val_loss: 0.1584 - val_accuracy: 0.9300
+Epoch 78/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0510 - accuracy: 0.9906 - val_loss: 0.1585 - val_accuracy: 0.9333
+Epoch 79/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0454 - accuracy: 0.9953 - val_loss: 0.1644 - val_accuracy: 0.9300
+Epoch 80/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0455 - accuracy: 0.9912 - val_loss: 0.1829 - val_accuracy: 0.9167
+Epoch 81/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0438 - accuracy: 0.9935 - val_loss: 0.1778 - val_accuracy: 0.9100
+Epoch 82/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0404 - accuracy: 0.9959 - val_loss: 0.1919 - val_accuracy: 0.9167
+Epoch 83/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0439 - accuracy: 0.9929 - val_loss: 0.2006 - val_accuracy: 0.9000
+Epoch 84/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0424 - accuracy: 0.9959 - val_loss: 0.1771 - val_accuracy: 0.9267
+Epoch 85/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0411 - accuracy: 0.9918 - val_loss: 0.1991 - val_accuracy: 0.9200
+Epoch 86/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0378 - accuracy: 0.9971 - val_loss: 0.1597 - val_accuracy: 0.9300
+Epoch 87/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0379 - accuracy: 0.9965 - val_loss: 0.1478 - val_accuracy: 0.9233
+Epoch 88/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0361 - accuracy: 0.9971 - val_loss: 0.1610 - val_accuracy: 0.9333
+Epoch 89/200
+54/54 [==============================] - 0s 3ms/step - loss: 0.0387 - accuracy: 0.9959 - val_loss: 0.1564 - val_accuracy: 0.9333
+Epoch 90/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0348 - accuracy: 0.9965 - val_loss: 0.1784 - val_accuracy: 0.9233
+Epoch 91/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0353 - accuracy: 0.9947 - val_loss: 0.1741 - val_accuracy: 0.9267
+Epoch 92/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0327 - accuracy: 0.9971 - val_loss: 0.1555 - val_accuracy: 0.9233
+Epoch 93/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0327 - accuracy: 0.9988 - val_loss: 0.1569 - val_accuracy: 0.9267
+Epoch 94/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0335 - accuracy: 0.9953 - val_loss: 0.1871 - val_accuracy: 0.9233
+Epoch 95/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0340 - accuracy: 0.9965 - val_loss: 0.1748 - val_accuracy: 0.9200
+Epoch 96/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0311 - accuracy: 0.9976 - val_loss: 0.1706 - val_accuracy: 0.9267
+Epoch 97/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0433 - accuracy: 0.9882 - val_loss: 0.1548 - val_accuracy: 0.9333
+Epoch 98/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0323 - accuracy: 0.9959 - val_loss: 0.1624 - val_accuracy: 0.9433
+Epoch 99/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0289 - accuracy: 0.9988 - val_loss: 0.1543 - val_accuracy: 0.9233
+Epoch 100/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0271 - accuracy: 0.9976 - val_loss: 0.1598 - val_accuracy: 0.9200
+Epoch 101/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0277 - accuracy: 0.9982 - val_loss: 0.1829 - val_accuracy: 0.9267
+Epoch 102/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0277 - accuracy: 0.9965 - val_loss: 0.1710 - val_accuracy: 0.9267
+Epoch 103/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0263 - accuracy: 0.9994 - val_loss: 0.1706 - val_accuracy: 0.9300
+Epoch 104/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0257 - accuracy: 0.9988 - val_loss: 0.1803 - val_accuracy: 0.9167
+Epoch 105/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0257 - accuracy: 0.9988 - val_loss: 0.1667 - val_accuracy: 0.9267
+Epoch 106/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0311 - accuracy: 0.9941 - val_loss: 0.1868 - val_accuracy: 0.9167
+Epoch 107/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0283 - accuracy: 0.9941 - val_loss: 0.1569 - val_accuracy: 0.9267
+Epoch 108/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0257 - accuracy: 0.9988 - val_loss: 0.2392 - val_accuracy: 0.9133
+Epoch 109/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0257 - accuracy: 0.9971 - val_loss: 0.1620 - val_accuracy: 0.9333
+Epoch 110/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0248 - accuracy: 0.9965 - val_loss: 0.1683 - val_accuracy: 0.9267
+Epoch 111/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0235 - accuracy: 0.9982 - val_loss: 0.1806 - val_accuracy: 0.9267
+Epoch 112/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0219 - accuracy: 0.9994 - val_loss: 0.1595 - val_accuracy: 0.9300
+Epoch 113/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0231 - accuracy: 1.0000 - val_loss: 0.1808 - val_accuracy: 0.9300
+Epoch 114/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0223 - accuracy: 0.9988 - val_loss: 0.1735 - val_accuracy: 0.9333
+Epoch 115/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0221 - accuracy: 0.9994 - val_loss: 0.1632 - val_accuracy: 0.9333
+Epoch 116/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0259 - accuracy: 0.9947 - val_loss: 0.1775 - val_accuracy: 0.9267
+Epoch 117/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0213 - accuracy: 0.9988 - val_loss: 0.1616 - val_accuracy: 0.9333
+Epoch 118/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0184 - accuracy: 0.9988 - val_loss: 0.1809 - val_accuracy: 0.9267
+Epoch 119/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0201 - accuracy: 0.9988 - val_loss: 0.2001 - val_accuracy: 0.9267
+Epoch 120/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0180 - accuracy: 1.0000 - val_loss: 0.1762 - val_accuracy: 0.9233
+Epoch 121/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0176 - accuracy: 1.0000 - val_loss: 0.1867 - val_accuracy: 0.9167
+Epoch 122/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0190 - accuracy: 0.9988 - val_loss: 0.2090 - val_accuracy: 0.9267
+Epoch 123/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0209 - accuracy: 0.9982 - val_loss: 0.1703 - val_accuracy: 0.9333
+Epoch 124/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0291 - accuracy: 0.9929 - val_loss: 0.2247 - val_accuracy: 0.9100
+Epoch 125/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0228 - accuracy: 0.9971 - val_loss: 0.2234 - val_accuracy: 0.9067
+Epoch 126/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0166 - accuracy: 1.0000 - val_loss: 0.2167 - val_accuracy: 0.9133
+Epoch 127/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0188 - accuracy: 0.9994 - val_loss: 0.1680 - val_accuracy: 0.9333
+Epoch 128/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0176 - accuracy: 0.9994 - val_loss: 0.2560 - val_accuracy: 0.9100
+Epoch 129/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0224 - accuracy: 0.9976 - val_loss: 0.1945 - val_accuracy: 0.9367
+Epoch 130/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0169 - accuracy: 0.9994 - val_loss: 0.2064 - val_accuracy: 0.9200
+Epoch 131/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0171 - accuracy: 0.9988 - val_loss: 0.2044 - val_accuracy: 0.9200
+Epoch 132/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0157 - accuracy: 0.9994 - val_loss: 0.2049 - val_accuracy: 0.9067
+Epoch 133/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0165 - accuracy: 0.9994 - val_loss: 0.1954 - val_accuracy: 0.9233
+Epoch 134/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0140 - accuracy: 1.0000 - val_loss: 0.1820 - val_accuracy: 0.9367
+Epoch 135/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0158 - accuracy: 0.9982 - val_loss: 0.2094 - val_accuracy: 0.9300
+Epoch 136/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0156 - accuracy: 0.9982 - val_loss: 0.1748 - val_accuracy: 0.9300
+Epoch 137/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0144 - accuracy: 0.9982 - val_loss: 0.1907 - val_accuracy: 0.9267
+Epoch 138/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0132 - accuracy: 1.0000 - val_loss: 0.1896 - val_accuracy: 0.9233
+Epoch 139/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0156 - accuracy: 0.9982 - val_loss: 0.1829 - val_accuracy: 0.9267
+Epoch 140/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0134 - accuracy: 1.0000 - val_loss: 0.1980 - val_accuracy: 0.9333
+Epoch 141/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0121 - accuracy: 1.0000 - val_loss: 0.2030 - val_accuracy: 0.9367
+Epoch 142/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0117 - accuracy: 0.9994 - val_loss: 0.1973 - val_accuracy: 0.9267
+Epoch 143/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0141 - accuracy: 0.9988 - val_loss: 0.2102 - val_accuracy: 0.9267
+Epoch 144/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0132 - accuracy: 0.9988 - val_loss: 0.2065 - val_accuracy: 0.9267
+Epoch 145/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0163 - accuracy: 0.9982 - val_loss: 0.1865 - val_accuracy: 0.9333
+Epoch 146/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0137 - accuracy: 0.9994 - val_loss: 0.1940 - val_accuracy: 0.9333
+Epoch 147/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0117 - accuracy: 0.9988 - val_loss: 0.1970 - val_accuracy: 0.9333
+Epoch 148/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0131 - accuracy: 0.9994 - val_loss: 0.1910 - val_accuracy: 0.9300
+Epoch 149/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0130 - accuracy: 0.9994 - val_loss: 0.2049 - val_accuracy: 0.9267
+Epoch 150/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0197 - accuracy: 0.9959 - val_loss: 0.2366 - val_accuracy: 0.9267
+Epoch 151/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0282 - accuracy: 0.9918 - val_loss: 0.1886 - val_accuracy: 0.9400
+Epoch 152/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0147 - accuracy: 0.9988 - val_loss: 0.2156 - val_accuracy: 0.9233
+Epoch 153/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0106 - accuracy: 1.0000 - val_loss: 0.1751 - val_accuracy: 0.9433
+Epoch 154/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0098 - accuracy: 1.0000 - val_loss: 0.1886 - val_accuracy: 0.9333
+Epoch 155/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0085 - accuracy: 1.0000 - val_loss: 0.1897 - val_accuracy: 0.9367
+Epoch 156/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0092 - accuracy: 1.0000 - val_loss: 0.1929 - val_accuracy: 0.9300
+Epoch 157/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0084 - accuracy: 1.0000 - val_loss: 0.1920 - val_accuracy: 0.9400
+Epoch 158/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0094 - accuracy: 0.9994 - val_loss: 0.2014 - val_accuracy: 0.9267
+Epoch 159/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0097 - accuracy: 1.0000 - val_loss: 0.2331 - val_accuracy: 0.9200
+Epoch 160/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0106 - accuracy: 0.9988 - val_loss: 0.2154 - val_accuracy: 0.9300
+Epoch 161/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0085 - accuracy: 1.0000 - val_loss: 0.1948 - val_accuracy: 0.9267
+Epoch 162/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0109 - accuracy: 0.9982 - val_loss: 0.1901 - val_accuracy: 0.9333
+Epoch 163/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0096 - accuracy: 1.0000 - val_loss: 0.1976 - val_accuracy: 0.9267
+Epoch 164/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0135 - accuracy: 0.9965 - val_loss: 0.1893 - val_accuracy: 0.9433
+Epoch 165/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0090 - accuracy: 1.0000 - val_loss: 0.1888 - val_accuracy: 0.9367
+Epoch 166/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0085 - accuracy: 1.0000 - val_loss: 0.2186 - val_accuracy: 0.9300
+Epoch 167/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0073 - accuracy: 1.0000 - val_loss: 0.1957 - val_accuracy: 0.9400
+Epoch 168/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0074 - accuracy: 1.0000 - val_loss: 0.2020 - val_accuracy: 0.9233
+Epoch 169/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0074 - accuracy: 1.0000 - val_loss: 0.1928 - val_accuracy: 0.9467
+Epoch 170/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0067 - accuracy: 1.0000 - val_loss: 0.2343 - val_accuracy: 0.9233
+Epoch 171/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0084 - accuracy: 1.0000 - val_loss: 0.2109 - val_accuracy: 0.9267
+Epoch 172/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0069 - accuracy: 1.0000 - val_loss: 0.2181 - val_accuracy: 0.9233
+Epoch 173/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0065 - accuracy: 1.0000 - val_loss: 0.2089 - val_accuracy: 0.9367
+Epoch 174/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0067 - accuracy: 1.0000 - val_loss: 0.2219 - val_accuracy: 0.9267
+Epoch 175/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0064 - accuracy: 1.0000 - val_loss: 0.2032 - val_accuracy: 0.9300
+Epoch 176/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0075 - accuracy: 1.0000 - val_loss: 0.2190 - val_accuracy: 0.9333
+Epoch 177/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0065 - accuracy: 1.0000 - val_loss: 0.1986 - val_accuracy: 0.9333
+Epoch 178/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0063 - accuracy: 1.0000 - val_loss: 0.2325 - val_accuracy: 0.9267
+Epoch 179/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0057 - accuracy: 1.0000 - val_loss: 0.2198 - val_accuracy: 0.9300
+Epoch 180/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0061 - accuracy: 1.0000 - val_loss: 0.2468 - val_accuracy: 0.9167
+Epoch 181/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0074 - accuracy: 1.0000 - val_loss: 0.2551 - val_accuracy: 0.9200
+Epoch 182/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0083 - accuracy: 0.9994 - val_loss: 0.2106 - val_accuracy: 0.9267
+Epoch 183/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0194 - accuracy: 0.9941 - val_loss: 0.1771 - val_accuracy: 0.9433
+Epoch 184/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0073 - accuracy: 1.0000 - val_loss: 0.2124 - val_accuracy: 0.9233
+Epoch 185/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0059 - accuracy: 1.0000 - val_loss: 0.2258 - val_accuracy: 0.9300
+Epoch 186/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0058 - accuracy: 1.0000 - val_loss: 0.2089 - val_accuracy: 0.9400
+Epoch 187/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0048 - accuracy: 1.0000 - val_loss: 0.2797 - val_accuracy: 0.9100
+Epoch 188/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0071 - accuracy: 1.0000 - val_loss: 0.2628 - val_accuracy: 0.9233
+Epoch 189/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0090 - accuracy: 0.9988 - val_loss: 0.2464 - val_accuracy: 0.9300
+Epoch 190/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0149 - accuracy: 0.9965 - val_loss: 0.2336 - val_accuracy: 0.9300
+Epoch 191/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0052 - accuracy: 1.0000 - val_loss: 0.2162 - val_accuracy: 0.9400
+Epoch 192/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0045 - accuracy: 1.0000 - val_loss: 0.2087 - val_accuracy: 0.9400
+Epoch 193/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0085 - accuracy: 1.0000 - val_loss: 0.2064 - val_accuracy: 0.9433
+Epoch 194/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0060 - accuracy: 1.0000 - val_loss: 0.2133 - val_accuracy: 0.9400
+Epoch 195/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0042 - accuracy: 1.0000 - val_loss: 0.2119 - val_accuracy: 0.9433
+Epoch 196/200
+54/54 [==============================] - 0s 3ms/step - loss: 0.0049 - accuracy: 1.0000 - val_loss: 0.2131 - val_accuracy: 0.9400
+Epoch 197/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0040 - accuracy: 1.0000 - val_loss: 0.2139 - val_accuracy: 0.9367
+Epoch 198/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0037 - accuracy: 1.0000 - val_loss: 0.2143 - val_accuracy: 0.9400
+Epoch 199/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0038 - accuracy: 1.0000 - val_loss: 0.2213 - val_accuracy: 0.9333
+Epoch 200/200
+54/54 [==============================] - 0s 2ms/step - loss: 0.0038 - accuracy: 1.0000 - val_loss: 0.2102 - val_accuracy: 0.9400
+10/10 - 0s - loss: 0.2102 - accuracy: 0.9400 - 35ms/epoch - 3ms/step
+Test accuracy: 0.9399999976158142
+Test loss: 0.21023745834827423
+10/10 [==============================] - 0s 1ms/step
+Predictions: [0 1 1 1 2 2 0 2 2 3 0 3 1 1 3 0 0 1 1 1 3 3 1 2 3 2 2 3 2 2 2 1 3 0 3 3 0
+ 0 0 1 2 1 2 1 0 1 2 2 1 2 1 3 1 3 1 3 1 3 3 1 0 2 1 3 2 1 0 2 3 2 1 2 0 3
+ 3 1 2 1 1 0 0 3 1 2 3 2 2 0 1 1 3 0 1 1 2 3 3 0 3 3 3 3 0 1 2 0 0 1 0 2 0
+ 3 1 1 2 2 3 1 2 1 1 0 0 0 3 0 1 1 0 1 0 2 0 3 3 0 3 2 2 1 0 0 3 1 0 2 0 0
+ 0 1 3 3 2 1 0 2 1 0 3 2 3 1 3 2 3 1 2 2 3 2 2 0 2 2 0 3 3 0 1 3 0 3 0 0 2
+ 3 3 1 2 1 2 3 2 2 0 1 2 3 3 1 3 2 0 1 2 2 2 1 0 2 0 3 2 0 3 0 1 0 2 1 0 1
+ 2 1 3 3 0 3 2 1 0 2 3 3 2 1 0 1 3 2 3 3 1 1 0 1 2 0 3 3 3 1 2 1 0 1 1 3 2
+ 0 3 1 1 1 2 1 2 0 3 2 2 0 0 1 3 3 0 1 1 2 3 2 2 2 2 0 0 3 0 0 1 3 2 3 0 0
+ 1 3 3 2]
+10/10 - 0s - loss: 0.2102 - accuracy: 0.9400 - 32ms/epoch - 3ms/step
