@@ -1,0 +1,72 @@
+2023-04-10 15:02:37,365 INFO    StreamThr :15956 [internal.py:wandb_internal():87] W&B internal server running at pid: 15956, started at: 2023-04-10 15:02:37.364276
+2023-04-10 15:02:37,367 DEBUG   HandlerThread:15956 [handler.py:handle_request():144] handle_request: status
+2023-04-10 15:02:37,368 INFO    WriterThread:15956 [datastore.py:open_for_write():85] open: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_150228-oajtipb7\run-oajtipb7.wandb
+2023-04-10 15:02:37,369 DEBUG   SenderThread:15956 [sender.py:send():336] send: header
+2023-04-10 15:02:37,369 DEBUG   SenderThread:15956 [sender.py:send():336] send: run
+2023-04-10 15:02:37,952 DEBUG   HandlerThread:15956 [handler.py:handle_request():144] handle_request: check_version
+2023-04-10 15:02:37,953 INFO    SenderThread:15956 [dir_watcher.py:__init__():219] watching files in: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_150228-oajtipb7\files
+2023-04-10 15:02:37,953 INFO    SenderThread:15956 [sender.py:_start_run_threads():1078] run started: oajtipb7 with start time 1681131756.367583
+2023-04-10 15:02:37,953 DEBUG   SenderThread:15956 [sender.py:send_request():363] send_request: summary_record
+2023-04-10 15:02:37,954 INFO    SenderThread:15956 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-10 15:02:37,955 DEBUG   SenderThread:15956 [sender.py:send_request():363] send_request: check_version
+2023-04-10 15:02:38,163 DEBUG   HandlerThread:15956 [handler.py:handle_request():144] handle_request: run_start
+2023-04-10 15:02:38,179 DEBUG   HandlerThread:15956 [system_info.py:__init__():31] System info init
+2023-04-10 15:02:38,179 DEBUG   HandlerThread:15956 [system_info.py:__init__():46] System info init done
+2023-04-10 15:02:38,179 INFO    HandlerThread:15956 [system_monitor.py:start():183] Starting system monitor
+2023-04-10 15:02:38,180 INFO    SystemMonitor:15956 [system_monitor.py:_start():147] Starting system asset monitoring threads
+2023-04-10 15:02:38,180 INFO    HandlerThread:15956 [system_monitor.py:probe():204] Collecting system info
+2023-04-10 15:02:38,184 INFO    SystemMonitor:15956 [interfaces.py:start():187] Started cpu monitoring
+2023-04-10 15:02:38,184 INFO    SystemMonitor:15956 [interfaces.py:start():187] Started disk monitoring
+2023-04-10 15:02:38,185 INFO    SystemMonitor:15956 [interfaces.py:start():187] Started gpu monitoring
+2023-04-10 15:02:38,190 INFO    SystemMonitor:15956 [interfaces.py:start():187] Started memory monitoring
+2023-04-10 15:02:38,208 INFO    SystemMonitor:15956 [interfaces.py:start():187] Started network monitoring
+2023-04-10 15:02:38,212 DEBUG   HandlerThread:15956 [system_info.py:probe():195] Probing system
+2023-04-10 15:02:38,214 ERROR   gpu       :15956 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-10 15:02:38,215 DEBUG   HandlerThread:15956 [system_info.py:_probe_git():180] Probing git
+2023-04-10 15:02:38,302 DEBUG   HandlerThread:15956 [system_info.py:_probe_git():188] Probing git done
+2023-04-10 15:02:38,302 DEBUG   HandlerThread:15956 [system_info.py:probe():240] Probing system done
+2023-04-10 15:02:38,302 DEBUG   HandlerThread:15956 [system_monitor.py:probe():213] {'os': 'Windows-10-10.0.22621-SP0', 'python': '3.10.7', 'heartbeatAt': '2023-04-10T13:02:38.212616', 'startedAt': '2023-04-10T13:02:28.368515', 'docker': None, 'cuda': None, 'args': None, 'state': 'running', 'program': '2.zadanie/src/second_assignment.ipynb', 'root': 'D:/10.semester/NN/neural-networks', 'git': {'remote': 'https://github.com/martinkukucka/neural-networks.git', 'commit': '3b2b88353701b54c301f6e3f709b9cb1bb04ac7c'}, 'email': 'andrejbelak0@gmail.com', 'host': 'AndysLAPTOP', 'username': 'andre', 'executable': 'd:\\programs\\pyhtonprograms\\bettscrapper\\venv\\scripts\\python.exe', 'cpu_count': 6, 'cpu_count_logical': 12, 'cpu_freq': {'current': 2592.0, 'min': 0.0, 'max': 2592.0}, 'cpu_freq_per_core': [{'current': 2592.0, 'min': 0.0, 'max': 2592.0}], 'disk': {'total': 683.5937461853027, 'used': 433.93786239624023}, 'gpu': 'GeForce GTX 1660 Ti', 'gpu_count': 1, 'gpu_devices': [{'name': 'GeForce GTX 1660 Ti', 'memory_total': 6442450944}], 'memory': {'total': 15.912220001220703}}
+2023-04-10 15:02:38,302 INFO    HandlerThread:15956 [system_monitor.py:probe():214] Finished collecting system info
+2023-04-10 15:02:38,303 INFO    HandlerThread:15956 [system_monitor.py:probe():217] Publishing system info
+2023-04-10 15:02:38,303 DEBUG   HandlerThread:15956 [system_info.py:_save_pip():51] Saving list of pip packages installed into the current environment
+2023-04-10 15:02:38,305 DEBUG   HandlerThread:15956 [system_info.py:_save_pip():67] Saving pip packages done
+2023-04-10 15:02:38,306 INFO    HandlerThread:15956 [system_monitor.py:probe():219] Finished publishing system info
+2023-04-10 15:02:38,306 DEBUG   SenderThread:15956 [sender.py:send():336] send: files
+2023-04-10 15:02:38,307 INFO    SenderThread:15956 [sender.py:_save_file():1332] saving file wandb-metadata.json with policy now
+2023-04-10 15:02:38,323 DEBUG   HandlerThread:15956 [handler.py:handle_request():144] handle_request: stop_status
+2023-04-10 15:02:38,323 DEBUG   SenderThread:15956 [sender.py:send_request():363] send_request: stop_status
+2023-04-10 15:02:38,379 DEBUG   HandlerThread:15956 [handler.py:handle_request():144] handle_request: get_summary
+2023-04-10 15:02:38,575 DEBUG   SenderThread:15956 [sender.py:send():336] send: telemetry
+2023-04-10 15:02:38,575 DEBUG   SenderThread:15956 [sender.py:send():336] send: telemetry
+2023-04-10 15:02:38,575 DEBUG   SenderThread:15956 [sender.py:send():336] send: run
+2023-04-10 15:02:38,845 INFO    SenderThread:15956 [sender.py:send_run():955] updated run: oajtipb7
+2023-04-10 15:02:38,845 DEBUG   SenderThread:15956 [sender.py:send():336] send: telemetry
+2023-04-10 15:02:38,846 DEBUG   SenderThread:15956 [sender.py:send():336] send: config
+2023-04-10 15:02:38,846 DEBUG   SenderThread:15956 [sender.py:send():336] send: config
+2023-04-10 15:02:38,846 DEBUG   SenderThread:15956 [sender.py:send():336] send: config
+2023-04-10 15:02:38,846 DEBUG   SenderThread:15956 [sender.py:send():336] send: telemetry
+2023-04-10 15:02:38,846 DEBUG   SenderThread:15956 [sender.py:send():336] send: telemetry
+2023-04-10 15:02:38,846 DEBUG   SenderThread:15956 [sender.py:send():336] send: files
+2023-04-10 15:02:38,846 INFO    SenderThread:15956 [sender.py:_save_file():1332] saving file model-best.h5 with policy live
+2023-04-10 15:02:38,846 DEBUG   SenderThread:15956 [sender.py:send():336] send: telemetry
+2023-04-10 15:02:38,964 INFO    Thread-31 :15956 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_150228-oajtipb7\files\config.yaml
+2023-04-10 15:02:38,964 INFO    Thread-31 :15956 [dir_watcher.py:_on_file_created():278] file/dir created: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_150228-oajtipb7\files\wandb-summary.json
+2023-04-10 15:02:38,965 INFO    Thread-31 :15956 [dir_watcher.py:_on_file_created():278] file/dir created: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_150228-oajtipb7\files\output.log
+2023-04-10 15:02:38,965 INFO    Thread-31 :15956 [dir_watcher.py:_on_file_created():278] file/dir created: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_150228-oajtipb7\files\requirements.txt
+2023-04-10 15:02:38,965 INFO    Thread-31 :15956 [dir_watcher.py:_on_file_created():278] file/dir created: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_150228-oajtipb7\files\wandb-metadata.json
+2023-04-10 15:02:39,044 INFO    wandb-upload_0:15956 [upload_job.py:push():138] Uploaded file C:\Users\andre\AppData\Local\Temp\tmpud63530swandb\38dxs4ut-wandb-metadata.json
+2023-04-10 15:02:39,342 DEBUG   SenderThread:15956 [sender.py:send():336] send: files
+2023-04-10 15:02:39,343 INFO    SenderThread:15956 [sender.py:_save_file():1332] saving file media\graph\graph_summary_33b0727bfd374437ba9f.graph.json with policy now
+2023-04-10 15:02:39,344 DEBUG   SenderThread:15956 [sender.py:send_request():363] send_request: summary_record
+2023-04-10 15:02:39,345 INFO    SenderThread:15956 [sender.py:_save_file():1332] saving file wandb-summary.json with policy end
+2023-04-10 15:02:39,931 INFO    wandb-upload_0:15956 [upload_job.py:push():138] Uploaded file C:\Users\andre\AppData\Local\Temp\tmpud63530swandb\61sujcqm-media/graph/graph_summary_33b0727bfd374437ba9f.graph.json
+2023-04-10 15:02:39,983 INFO    Thread-31 :15956 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_150228-oajtipb7\files\wandb-summary.json
+2023-04-10 15:02:39,983 INFO    Thread-31 :15956 [dir_watcher.py:_on_file_created():278] file/dir created: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_150228-oajtipb7\files\media\graph\graph_summary_33b0727bfd374437ba9f.graph.json
+2023-04-10 15:02:39,984 INFO    Thread-31 :15956 [dir_watcher.py:_on_file_created():278] file/dir created: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_150228-oajtipb7\files\media\graph
+2023-04-10 15:02:39,984 INFO    Thread-31 :15956 [dir_watcher.py:_on_file_created():278] file/dir created: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_150228-oajtipb7\files\media
+2023-04-10 15:02:40,305 ERROR   gpu       :15956 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-10 15:02:41,000 INFO    Thread-31 :15956 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_150228-oajtipb7\files\output.log
+2023-04-10 15:02:42,363 ERROR   gpu       :15956 [interfaces.py:monitor():141] Failed to sample metric: Not Supported
+2023-04-10 15:02:42,393 DEBUG   HandlerThread:15956 [handler.py:handle_request():144] handle_request: status_report
+2023-04-10 15:02:43,017 INFO    Thread-31 :15956 [dir_watcher.py:_on_file_modified():295] file/dir modified: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_150228-oajtipb7\files\output.log
+2023-04-10 15:02:44,422 ERROR   gpu       :15956 [interfaces.py:monitor():141] Failed to sample metric: Not Supported

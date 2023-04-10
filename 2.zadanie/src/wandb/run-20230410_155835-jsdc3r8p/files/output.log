@@ -1,0 +1,63 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.3012 - accuracy: 0.5560INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_155835-jsdc3r8p\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 3 of 3). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_155835-jsdc3r8p\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_155835-jsdc3r8p\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 49s 31ms/step - loss: 1.3010 - accuracy: 0.5560 - val_loss: 1.1305 - val_accuracy: 0.6154 - lr: 0.0010
+157/157 - 1s - loss: 1.0780 - accuracy: 0.6314 - 1s/epoch - 7ms/step
+Validation accuracy: 0.6313999891281128
+Validation loss: 1.0779991149902344
+157/157 [==============================] - 1s 7ms/step
+Predictions: [1 5 1 ... 1 0 7]
+Model: "sequential_2"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_4 (Conv2D)           (None, 30, 30, 32)        896
+ batch_normalization (BatchN  (None, 30, 30, 32)       128
+ ormalization)
+ max_pooling2d_4 (MaxPooling  (None, 15, 15, 32)       0
+ 2D)
+ batch_normalization_1 (Batc  (None, 15, 15, 32)       128
+ hNormalization)
+ conv2d_5 (Conv2D)           (None, 13, 13, 64)        18496
+ batch_normalization_2 (Batc  (None, 13, 13, 64)       256
+ hNormalization)
+ max_pooling2d_5 (MaxPooling  (None, 6, 6, 64)         0
+ 2D)
+ batch_normalization_3 (Batc  (None, 6, 6, 64)         256
+ hNormalization)
+ flatten_2 (Flatten)         (None, 2304)              0
+ batch_normalization_4 (Batc  (None, 2304)             9216
+ hNormalization)
+ dense_4 (Dense)             (None, 512)               1180160
+ batch_normalization_5 (Batc  (None, 512)              2048
+ hNormalization)
+ dense_5 (Dense)             (None, 10)                5130
+=================================================================
+Total params: 1,216,714
+Trainable params: 1,210,698
+Non-trainable params: 6,016
+_________________________________________________________________

@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1562/1563 [============================>.] - ETA: 0s - loss: 1.7972 - accuracy: 0.3473INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_163313-3k8uovgv\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op while saving (showing 5 of 10). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_163313-3k8uovgv\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230410_163313-3k8uovgv\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 49s 30ms/step - loss: 1.7973 - accuracy: 0.3472 - val_loss: 1.4155 - val_accuracy: 0.4852 - lr: 0.0010
+157/157 - 1s - loss: 1.3850 - accuracy: 0.4898 - 1s/epoch - 8ms/step
+Test accuracy: 0.48980000615119934
+Test loss: 1.3850477933883667
+157/157 [==============================] - 1s 8ms/step

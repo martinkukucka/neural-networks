@@ -1,0 +1,49 @@
+{
+    "os": "Windows-10-10.0.22621-SP0",
+    "python": "3.10.7",
+    "heartbeatAt": "2023-04-10T13:57:04.213825",
+    "startedAt": "2023-04-10T13:57:03.114873",
+    "docker": null,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "2.zadanie/src/second_assignment.ipynb",
+    "root": "D:/10.semester/NN/neural-networks",
+    "git": {
+        "remote": "https://github.com/martinkukucka/neural-networks.git",
+        "commit": "3b2b88353701b54c301f6e3f709b9cb1bb04ac7c"
+    },
+    "email": "andrejbelak0@gmail.com",
+    "host": "AndysLAPTOP",
+    "username": "andre",
+    "executable": "d:\\programs\\pyhtonprograms\\bettscrapper\\venv\\scripts\\python.exe",
+    "cpu_count": 6,
+    "cpu_count_logical": 12,
+    "cpu_freq": {
+        "current": 2592.0,
+        "min": 0.0,
+        "max": 2592.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2592.0,
+            "min": 0.0,
+            "max": 2592.0
+        }
+    ],
+    "disk": {
+        "total": 683.5937461853027,
+        "used": 434.02038955688477
+    },
+    "gpu": "GeForce GTX 1660 Ti",
+    "gpu_count": 1,
+    "gpu_devices": [
+        {
+            "name": "GeForce GTX 1660 Ti",
+            "memory_total": 6442450944
+        }
+    ],
+    "memory": {
+        "total": 15.912220001220703
+    }
+}
