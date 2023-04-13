@@ -1,0 +1,74 @@
+2023-04-13 00:50:57,878 INFO    MainThread:19312 [wandb_setup.py:_flush():76] Configure stats pid to 19312
+2023-04-13 00:50:57,878 INFO    MainThread:19312 [wandb_setup.py:_flush():76] Loading settings from C:\Users\andre\.config\wandb\settings
+2023-04-13 00:50:57,879 INFO    MainThread:19312 [wandb_setup.py:_flush():76] Loading settings from D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\settings
+2023-04-13 00:50:57,879 INFO    MainThread:19312 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2023-04-13 00:50:57,879 INFO    MainThread:19312 [wandb_setup.py:_flush():76] Applying setup settings: {'_disable_service': False}
+2023-04-13 00:50:57,879 INFO    MainThread:19312 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2023-04-13 00:50:57,879 INFO    MainThread:19312 [wandb_init.py:_log_setup():506] Logging user logs to D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230413_005057-icbz0s0k\logs\debug.log
+2023-04-13 00:50:57,879 INFO    MainThread:19312 [wandb_init.py:_log_setup():507] Logging internal logs to D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230413_005057-icbz0s0k\logs\debug-internal.log
+2023-04-13 00:50:57,880 INFO    MainThread:19312 [wandb_init.py:init():546] calling init triggers
+2023-04-13 00:50:57,880 INFO    MainThread:19312 [wandb_init.py:init():552] wandb.init called with sweep_config: {}
+config: {}
+2023-04-13 00:50:57,880 INFO    MainThread:19312 [wandb_init.py:init():568] re-initializing run, found existing run on stack: zmxhzd3x
+2023-04-13 00:50:57,881 INFO    MainThread:19312 [wandb_run.py:_finish():1854] finishing run neural-netwok-nn/neural-network-assgiment2/zmxhzd3x
+2023-04-13 00:50:57,882 INFO    MainThread:19312 [jupyter.py:save_history():445] not saving jupyter history
+2023-04-13 00:50:57,882 INFO    MainThread:19312 [jupyter.py:save_ipynb():373] not saving jupyter notebook
+2023-04-13 00:50:57,882 INFO    MainThread:19312 [wandb_init.py:_jupyter_teardown():434] cleaning up jupyter logic
+2023-04-13 00:50:57,882 INFO    MainThread:19312 [wandb_run.py:_atexit_cleanup():2083] got exitcode: 0
+2023-04-13 00:50:57,882 INFO    MainThread:19312 [wandb_run.py:_restore():2066] restore
+2023-04-13 00:50:57,883 INFO    MainThread:19312 [wandb_run.py:_restore():2072] restore done
+2023-04-13 08:59:47,829 WARNING MsgRouterThr:19312 [router.py:message_loop():77] message_loop has been closed
+2023-04-13 08:59:47,908 WARNING MainThread:19312 [wandb_init.py:init():1165] interrupted
+Traceback (most recent call last):
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\sdk\wandb_init.py", line 1144, in init
+    run = wi.init()
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\sdk\wandb_init.py", line 581, in init
+    self._wl._global_run_stack[-1].finish()
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\sdk\wandb_run.py", line 370, in wrapper
+    return func(self, *args, **kwargs)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\sdk\wandb_run.py", line 333, in wrapper
+    return func(self, *args, **kwargs)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\sdk\wandb_run.py", line 1845, in finish
+    return self._finish(exit_code, quiet)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\sdk\wandb_run.py", line 1873, in _finish
+    manager._inform_finish(run_id=self._run_id)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\sdk\wandb_manager.py", line 222, in _inform_finish
+    svc_iface._svc_inform_finish(run_id=run_id)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\sdk\service\service_sock.py", line 54, in _svc_inform_finish
+    self._sock_client.send(inform_finish=inform_finish)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\sdk\lib\sock_client.py", line 211, in send
+    self.send_server_request(server_req)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\sdk\lib\sock_client.py", line 155, in send_server_request
+    self._send_message(msg)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\sdk\lib\sock_client.py", line 152, in _send_message
+    self._sendall_with_error_handle(header + data)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\sdk\lib\sock_client.py", line 130, in _sendall_with_error_handle
+    sent = self._sock.send(data)
+ConnectionResetError: [WinError 10054] An existing connection was forcibly closed by the remote host
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\sdk\wandb_init.py", line 1148, in init
+    sentry_exc(e)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\wandb\util.py", line 198, in sentry_exc
+    sentry_hub.capture_exception(exc)  # type: ignore
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\sentry_sdk\hub.py", line 386, in capture_exception
+    event, hint = event_from_exception(exc_info, client_options=client.options)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\sentry_sdk\utils.py", line 840, in event_from_exception
+    "values": exceptions_from_error_tuple(
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\sentry_sdk\utils.py", line 725, in exceptions_from_error_tuple
+    single_exception_from_error_tuple(
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\sentry_sdk\utils.py", line 656, in single_exception_from_error_tuple
+    frames = [
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\sentry_sdk\utils.py", line 657, in <listcomp>
+    serialize_frame(tb.tb_frame, tb_lineno=tb.tb_lineno, with_locals=with_locals)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\sentry_sdk\utils.py", line 593, in serialize_frame
+    pre_context, context_line, post_context = get_source_context(frame, tb_lineno)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\sentry_sdk\utils.py", line 503, in get_source_context
+    return get_lines_from_file(abs_path, lineno, loader, module)
+  File "d:\programs\pyhtonprograms\bettscrapper\venv\lib\site-packages\sentry_sdk\utils.py", line 451, in get_lines_from_file
+    source_str = loader.get_source(module)  # type: Optional[str]
+  File "<frozen importlib._bootstrap_external>", line 936, in get_source
+  File "<frozen importlib._bootstrap_external>", line 1074, in get_data
+KeyboardInterrupt

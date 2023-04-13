@@ -1,0 +1,547 @@
+Epoch 1/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.8633 - accuracy: 0.3266
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 4 of 4). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.8633 - accuracy: 0.3266INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+1563/1563 [==============================] - 47s 29ms/step - loss: 1.8635 - accuracy: 0.3266 - val_loss: 1.5522 - val_accuracy: 0.4274 - lr: 0.0010
+Epoch 2/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 45s 29ms/step - loss: 1.5165 - accuracy: 0.4505 - val_loss: 1.6427 - val_accuracy: 0.4520 - lr: 0.0010
+Epoch 3/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.3892 - accuracy: 0.5060INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 4 of 4). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 47s 30ms/step - loss: 1.3893 - accuracy: 0.5059 - val_loss: 1.2393 - val_accuracy: 0.5506 - lr: 0.0010
+Epoch 4/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 44s 28ms/step - loss: 1.2839 - accuracy: 0.5451 - val_loss: 1.7572 - val_accuracy: 0.4314 - lr: 0.0010
+Epoch 5/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.2180 - accuracy: 0.5761
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.2180 - accuracy: 0.5761INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 48s 31ms/step - loss: 1.2183 - accuracy: 0.5761 - val_loss: 1.1150 - val_accuracy: 0.6074 - lr: 0.0010
+Epoch 6/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.1535 - accuracy: 0.5965
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.1535 - accuracy: 0.5965INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 44s 28ms/step - loss: 1.1534 - accuracy: 0.5966 - val_loss: 1.0832 - val_accuracy: 0.6232 - lr: 0.0010
+Epoch 7/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.1126 - accuracy: 0.6150
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.1126 - accuracy: 0.6150INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 46s 29ms/step - loss: 1.1128 - accuracy: 0.6149 - val_loss: 1.0608 - val_accuracy: 0.6362 - lr: 0.0010
+Epoch 8/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.0693 - accuracy: 0.6288
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 4 of 4). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.0693 - accuracy: 0.6288INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+1563/1563 [==============================] - 47s 30ms/step - loss: 1.0692 - accuracy: 0.6289 - val_loss: 0.8978 - val_accuracy: 0.6892 - lr: 0.0010
+Epoch 9/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1562/1563 [============================>.] - ETA: 0s - loss: 1.0412 - accuracy: 0.6408
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 4 of 4). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+
+1562/1563 [============================>.] - ETA: 0s - loss: 1.0412 - accuracy: 0.6408INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+1563/1563 [==============================] - 45s 29ms/step - loss: 1.0413 - accuracy: 0.6408 - val_loss: 0.8717 - val_accuracy: 0.7028 - lr: 0.0010
+Epoch 10/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 45s 28ms/step - loss: 1.0146 - accuracy: 0.6503 - val_loss: 0.8784 - val_accuracy: 0.7026 - lr: 0.0010
+Epoch 11/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 48s 31ms/step - loss: 0.9968 - accuracy: 0.6591 - val_loss: 1.0644 - val_accuracy: 0.6336 - lr: 0.0010
+Epoch 12/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 0.9711 - accuracy: 0.6662
+
+1561/1563 [============================>.] - ETA: 0s - loss: 0.9711 - accuracy: 0.6662INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 52s 33ms/step - loss: 0.9712 - accuracy: 0.6662 - val_loss: 0.8359 - val_accuracy: 0.7156 - lr: 0.0010
+Epoch 13/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 0.9496 - accuracy: 0.6732
+
+1561/1563 [============================>.] - ETA: 0s - loss: 0.9496 - accuracy: 0.6732INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 51s 32ms/step - loss: 0.9496 - accuracy: 0.6732 - val_loss: 0.8230 - val_accuracy: 0.7148 - lr: 0.0010
+Epoch 14/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 47s 30ms/step - loss: 0.9431 - accuracy: 0.6763 - val_loss: 0.8797 - val_accuracy: 0.7046 - lr: 0.0010
+Epoch 15/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 49s 31ms/step - loss: 0.9214 - accuracy: 0.6866 - val_loss: 1.0817 - val_accuracy: 0.6362 - lr: 0.0010
+Epoch 16/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 0.9173 - accuracy: 0.6874
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 4 of 4). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+
+1561/1563 [============================>.] - ETA: 0s - loss: 0.9173 - accuracy: 0.6874INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+1563/1563 [==============================] - 50s 32ms/step - loss: 0.9171 - accuracy: 0.6875 - val_loss: 0.8085 - val_accuracy: 0.7200 - lr: 0.0010
+Epoch 17/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1562/1563 [============================>.] - ETA: 0s - loss: 0.9033 - accuracy: 0.6911
+
+1562/1563 [============================>.] - ETA: 0s - loss: 0.9033 - accuracy: 0.6911INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 46s 30ms/step - loss: 0.9032 - accuracy: 0.6911 - val_loss: 0.7739 - val_accuracy: 0.7312 - lr: 0.0010
+Epoch 18/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 0.8970 - accuracy: 0.6920INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 4 of 4). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_173647-q8499i4a\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 45s 29ms/step - loss: 0.8969 - accuracy: 0.6920 - val_loss: 0.7719 - val_accuracy: 0.7324 - lr: 0.0010
+Epoch 19/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 47s 30ms/step - loss: 0.8820 - accuracy: 0.6991 - val_loss: 0.8852 - val_accuracy: 0.6938 - lr: 0.0010
+Epoch 20/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 44s 28ms/step - loss: 0.8744 - accuracy: 0.7021 - val_loss: 0.8689 - val_accuracy: 0.7044 - lr: 0.0010
+157/157 - 1s - loss: 0.8180 - accuracy: 0.7210 - 1s/epoch - 8ms/step
+Test accuracy: 0.7210000157356262
+Test loss: 0.817970335483551
+Model: "sequential_4"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d_32 (Conv2D)          (None, 30, 30, 32)        896
+ batch_normalization_19 (Bat  (None, 30, 30, 32)       128
+ chNormalization)
+ max_pooling2d_8 (MaxPooling  (None, 15, 15, 32)       0
+ 2D)
+ dropout_8 (Dropout)         (None, 15, 15, 32)        0
+ conv2d_33 (Conv2D)          (None, 13, 13, 64)        18496
+ batch_normalization_20 (Bat  (None, 13, 13, 64)       256
+ chNormalization)
+ max_pooling2d_9 (MaxPooling  (None, 6, 6, 64)         0
+ 2D)
+ dropout_9 (Dropout)         (None, 6, 6, 64)          0
+ conv2d_34 (Conv2D)          (None, 4, 4, 128)         73856
+ batch_normalization_21 (Bat  (None, 4, 4, 128)        512
+ chNormalization)
+ max_pooling2d_10 (MaxPoolin  (None, 2, 2, 128)        0
+ g2D)
+ dropout_10 (Dropout)        (None, 2, 2, 128)         0
+ flatten_5 (Flatten)         (None, 512)               0
+ dense_13 (Dense)            (None, 64)                32832
+ dropout_11 (Dropout)        (None, 64)                0
+ dense_14 (Dense)            (None, 10)                650
+=================================================================
+Total params: 127,626
+Trainable params: 127,178
+Non-trainable params: 448
+_________________________________________________________________

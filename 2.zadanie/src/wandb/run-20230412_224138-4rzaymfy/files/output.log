@@ -1,0 +1,280 @@
+Epoch 1/20
+  10/1563 [..............................] - ETA: 27s - loss: 2.7472 - accuracy: 0.1906
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.5134 - accuracy: 0.4691
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 4 of 4). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best\assets
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.5134 - accuracy: 0.4691INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best\assets
+1563/1563 [==============================] - 32s 19ms/step - loss: 1.5132 - accuracy: 0.4692 - val_loss: 1.3608 - val_accuracy: 0.5246 - lr: 0.0010
+Epoch 2/20
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 1.1229 - accuracy: 0.6028INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 4 of 4). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 30s 19ms/step - loss: 1.1226 - accuracy: 0.6029 - val_loss: 1.1787 - val_accuracy: 0.5830 - lr: 0.0010
+Epoch 3/20
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 0.9445 - accuracy: 0.6660INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 4 of 4). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 30s 19ms/step - loss: 0.9444 - accuracy: 0.6660 - val_loss: 1.0916 - val_accuracy: 0.6318 - lr: 0.0010
+Epoch 4/20
+
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 0.8107 - accuracy: 0.7153INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 4 of 4). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 31s 20ms/step - loss: 0.8106 - accuracy: 0.7153 - val_loss: 0.9744 - val_accuracy: 0.6718 - lr: 0.0010
+Epoch 5/20
+
+
+
+
+
+
+
+
+
+
+
+1560/1563 [============================>.] - ETA: 0s - loss: 0.7095 - accuracy: 0.7501INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 4 of 4). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 31s 20ms/step - loss: 0.7093 - accuracy: 0.7501 - val_loss: 0.9365 - val_accuracy: 0.6862 - lr: 0.0010
+Epoch 6/20
+
+
+
+
+
+
+
+
+
+
+
+
+1560/1563 [============================>.] - ETA: 0s - loss: 0.6117 - accuracy: 0.7833INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best\assets
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 4 of 4). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best\assets
+[34m[1mwandb[39m[22m: Adding directory to artifact (D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230412_224138-4rzaymfy\files\model-best)... Done. 0.0s
+1563/1563 [==============================] - 31s 20ms/step - loss: 0.6119 - accuracy: 0.7833 - val_loss: 0.9010 - val_accuracy: 0.7118 - lr: 0.0010
+Epoch 7/20
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 29s 19ms/step - loss: 0.5321 - accuracy: 0.8120 - val_loss: 0.9645 - val_accuracy: 0.6894 - lr: 0.0010
+Epoch 8/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 30s 19ms/step - loss: 0.4609 - accuracy: 0.8358 - val_loss: 1.0105 - val_accuracy: 0.6850 - lr: 0.0010
+Epoch 9/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 30s 19ms/step - loss: 0.4034 - accuracy: 0.8585 - val_loss: 1.0805 - val_accuracy: 0.6892 - lr: 0.0010
+Epoch 10/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 32s 20ms/step - loss: 0.3499 - accuracy: 0.8757 - val_loss: 1.0843 - val_accuracy: 0.6954 - lr: 0.0010
+Epoch 11/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 28s 18ms/step - loss: 0.3154 - accuracy: 0.8884 - val_loss: 1.1607 - val_accuracy: 0.6832 - lr: 0.0010
+Epoch 12/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 28s 18ms/step - loss: 0.2389 - accuracy: 0.9156 - val_loss: 1.1112 - val_accuracy: 0.7088 - lr: 8.0000e-04
+Epoch 13/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 28s 18ms/step - loss: 0.2030 - accuracy: 0.9283 - val_loss: 1.2459 - val_accuracy: 0.6818 - lr: 8.0000e-04
+Epoch 14/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 28s 18ms/step - loss: 0.1946 - accuracy: 0.9310 - val_loss: 1.2525 - val_accuracy: 0.6988 - lr: 8.0000e-04
+Epoch 15/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 30s 19ms/step - loss: 0.1745 - accuracy: 0.9380 - val_loss: 1.2861 - val_accuracy: 0.7016 - lr: 8.0000e-04
+Epoch 16/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 29s 19ms/step - loss: 0.1631 - accuracy: 0.9419 - val_loss: 1.2980 - val_accuracy: 0.7036 - lr: 8.0000e-04
+157/157 - 1s - loss: 1.2001 - accuracy: 0.7222 - 697ms/epoch - 4ms/step
+Test accuracy: 0.7221999764442444
+Test loss: 1.2000718116760254
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d (Conv2D)             (None, 16, 16, 32)        896
+ batch_normalization (BatchN  (None, 16, 16, 32)       128
+ ormalization)
+ dropout (Dropout)           (None, 16, 16, 32)        0
+ conv2d_1 (Conv2D)           (None, 8, 8, 64)          18496
+ batch_normalization_1 (Batc  (None, 8, 8, 64)         256
+ hNormalization)
+ conv2d_2 (Conv2D)           (None, 4, 4, 64)          36928
+ batch_normalization_2 (Batc  (None, 4, 4, 64)         256
+ hNormalization)
+ flatten (Flatten)           (None, 1024)              0
+ dense (Dense)               (None, 512)               524800
+ batch_normalization_3 (Batc  (None, 512)              2048
+ hNormalization)
+ dense_1 (Dense)             (None, 10)                5130
+=================================================================
+Total params: 588,938
+Trainable params: 587,594
+Non-trainable params: 1,344
+_________________________________________________________________

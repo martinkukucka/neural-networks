@@ -1,0 +1,253 @@
+Epoch 1/20
+  46/1563 [..............................] - ETA: 31s - loss: 2.1668 - accuracy: 0.1861
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - ETA: 0s - loss: 1.3254 - accuracy: 0.5263
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 3 of 3). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230411_234146-q1lovgfh\files\model-best\assets
+
+1563/1563 [==============================] - ETA: 0s - loss: 1.3254 - accuracy: 0.5263INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230411_234146-q1lovgfh\files\model-best\assets
+1563/1563 [==============================] - 36s 23ms/step - loss: 1.3254 - accuracy: 0.5263 - val_loss: 1.0753 - val_accuracy: 0.6298 - lr: 0.0010
+Epoch 2/20
+
+
+
+
+
+
+
+
+
+1551/1563 [============================>.] - ETA: 0s - loss: 0.9569 - accuracy: 0.6656
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 3 of 3). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230411_234146-q1lovgfh\files\model-best\assets
+
+1563/1563 [==============================] - ETA: 0s - loss: 0.9567 - accuracy: 0.6658INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230411_234146-q1lovgfh\files\model-best\assets
+1563/1563 [==============================] - 34s 22ms/step - loss: 0.9567 - accuracy: 0.6658 - val_loss: 0.9738 - val_accuracy: 0.6712 - lr: 0.0010
+Epoch 3/20
+
+
+
+
+
+
+
+
+
+
+
+1561/1563 [============================>.] - ETA: 0s - loss: 0.7839 - accuracy: 0.7262
+WARNING:absl:Found untraced functions such as _jit_compiled_convolution_op, _jit_compiled_convolution_op, _update_step_xla while saving (showing 3 of 3). These functions will not be directly callable after loading.
+INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230411_234146-q1lovgfh\files\model-best\assets
+
+1561/1563 [============================>.] - ETA: 0s - loss: 0.7839 - accuracy: 0.7262INFO:tensorflow:Assets written to: D:\10.semester\NN\neural-networks\2.zadanie\src\wandb\run-20230411_234146-q1lovgfh\files\model-best\assets
+1563/1563 [==============================] - 33s 21ms/step - loss: 0.7838 - accuracy: 0.7262 - val_loss: 0.8857 - val_accuracy: 0.7000 - lr: 0.0010
+Epoch 4/20
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 32s 21ms/step - loss: 0.6341 - accuracy: 0.7784 - val_loss: 0.8903 - val_accuracy: 0.7084 - lr: 0.0010
+Epoch 5/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 33s 21ms/step - loss: 0.5051 - accuracy: 0.8233 - val_loss: 0.9224 - val_accuracy: 0.7128 - lr: 0.0010
+Epoch 6/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 33s 21ms/step - loss: 0.3794 - accuracy: 0.8684 - val_loss: 0.9714 - val_accuracy: 0.7196 - lr: 0.0010
+Epoch 7/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 33s 21ms/step - loss: 0.2716 - accuracy: 0.9068 - val_loss: 1.0497 - val_accuracy: 0.7224 - lr: 0.0010
+Epoch 8/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 34s 22ms/step - loss: 0.1937 - accuracy: 0.9345 - val_loss: 1.2452 - val_accuracy: 0.7086 - lr: 0.0010
+Epoch 9/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 34s 22ms/step - loss: 0.1091 - accuracy: 0.9643 - val_loss: 1.3733 - val_accuracy: 0.7130 - lr: 8.0000e-04
+Epoch 10/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 34s 22ms/step - loss: 0.0809 - accuracy: 0.9741 - val_loss: 1.5057 - val_accuracy: 0.7070 - lr: 8.0000e-04
+Epoch 11/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 35s 22ms/step - loss: 0.0684 - accuracy: 0.9776 - val_loss: 1.7418 - val_accuracy: 0.7042 - lr: 8.0000e-04
+Epoch 12/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 34s 22ms/step - loss: 0.0575 - accuracy: 0.9813 - val_loss: 1.8174 - val_accuracy: 0.7020 - lr: 8.0000e-04
+Epoch 13/20
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+1563/1563 [==============================] - 35s 22ms/step - loss: 0.0607 - accuracy: 0.9800 - val_loss: 1.8540 - val_accuracy: 0.7094 - lr: 8.0000e-04
+157/157 - 1s - loss: 1.6917 - accuracy: 0.7266 - 739ms/epoch - 5ms/step
+Test accuracy: 0.7265999913215637
+Test loss: 1.6917054653167725
+Model: "sequential"
+_________________________________________________________________
+ Layer (type)                Output Shape              Param #
+=================================================================
+ conv2d (Conv2D)             (None, 30, 30, 32)        896
+ max_pooling2d (MaxPooling2D  (None, 15, 15, 32)       0
+ )
+ conv2d_1 (Conv2D)           (None, 13, 13, 64)        18496
+ max_pooling2d_1 (MaxPooling  (None, 6, 6, 64)         0
+ 2D)
+ flatten (Flatten)           (None, 2304)              0
+ dense (Dense)               (None, 512)               1180160
+ dense_1 (Dense)             (None, 10)                5130
+=================================================================
+Total params: 1,204,682
+Trainable params: 1,204,682
+Non-trainable params: 0
+_________________________________________________________________
